@@ -1,0 +1,4 @@
+-  [Python机器学习实战](http://www.icourse163.org/course/BIT-1001872001)
+- 这段时间跟着《machinelearninginaction》配套学习Python下的机器学习算法
+- 数据集下载地址
+- 下载地址：https://pan.baidu.com/s/1eR7doh8
