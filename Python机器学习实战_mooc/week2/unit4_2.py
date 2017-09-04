@@ -41,7 +41,7 @@ def load_datasets(feature_paths,label_paths):
         imp=Imputer(missing_values='NaN',strategy='mean',axis=0)
         imp.fit(df)
         df=imp.transform(df)
-        feature=np.concatenate(feature,df)
+        feature=np.concatenate((feature,df))
         
     for file in label_paths:
         df=pd.read_table(file,header=None)
@@ -52,8 +52,9 @@ def load_datasets(feature_paths,label_paths):
         
 if __name__ == '__main__':
     ''' 数据路径 '''
-    featurePaths = ['A/A.feature','B/B.feature','C/C.feature','D/D.feature','E/E.feature']
-    labelPaths = ['A/A.label','B/B.label','C/C.label','D/D.label','E/E.label']
+    fpath='F:/RANJIEWEN/MachineLearning/Python机器学习实战_mooc/data/classify/dataset/'
+    featurePaths = [fpath+'A/A.feature',fpath+'B/B.feature',fpath+'C/C.feature',fpath+'D/D.feature',fpath+'E/E.feature']
+    labelPaths = [fpath+'A/A.label',fpath+'B/B.label',fpath+'C/C.label',fpath+'D/D.label',fpath+'E/E.label']
     ''' 读入数据  '''
     x_train,y_train = load_datasets(featurePaths[:4],labelPaths[:4])
     x_test,y_test = load_datasets(featurePaths[4:],labelPaths[4:])
