@@ -42,4 +42,26 @@
      step3:对梯度幅值进行非极大值抑制；
      step4:用双阈值算法检测和连接边缘。
 
-## 频域分析及变换1.25
+## 频域分析及变换
+
+### 傅里叶变换
+- 滤波-除去特定频率和加速计算-时域卷积变为频域相乘
+- 应用信号分解
+- 离中心点越远，频率越高，越亮幅度越大
+- 相位即梯度的方向，不同的相位方向表示不同的边缘轮廓
+![](https://i.imgur.com/JyvVIDT.png)
+- 空域卷积=频域相乘
+![](https://i.imgur.com/YqL9FQq.png)
+### 高斯金字塔
+
+- 高斯卷积+降采样
+![](https://i.imgur.com/aGFOVBM.png)
+- 高斯金字塔的必要性，直接降采样损失信息
+![](https://i.imgur.com/ywQUW8b.png)
+- 尺度空间：不同尺度适合不同尺寸的物体，合适的尺度永远未知。
+
+### 拉普拉斯字塔Laplacian
+
+- 保留高频信息
+![](https://i.imgur.com/jueqnhz.png)
+![](https://i.imgur.com/c98s487.png)
