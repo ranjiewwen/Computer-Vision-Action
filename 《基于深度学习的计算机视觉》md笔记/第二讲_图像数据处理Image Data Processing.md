@@ -62,6 +62,12 @@
 
 ### 拉普拉斯字塔Laplacian
 
-- 保留高频信息
+- 保留高频信息，用于图像恢复
 ![](https://i.imgur.com/jueqnhz.png)
+- 左边Gaussian Pyramid由上向下；中间Laplacian Pyramid由下到上；右边图像是图像恢复
 ![](https://i.imgur.com/c98s487.png)
+
+### 模板匹配
+
+- 相似度量
+![](https://i.imgur.com/RU61KOb.png)
