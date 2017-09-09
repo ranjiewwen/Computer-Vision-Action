@@ -7,6 +7,8 @@ from numpy import *
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
+import sys
+sys.path.append('..')
 import logRegres
 
 dataMat,labelMat=logRegres.loadDataSet()
