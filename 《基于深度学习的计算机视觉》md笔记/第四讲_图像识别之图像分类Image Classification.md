@@ -33,5 +33,36 @@
 - **卷积步长大于1，有降维的作用**
 
 ### 池化层
-
+- 特征融合，降维
 ![](https://i.imgur.com/dljAU07.png)
+
+### 全连接层
+![](https://i.imgur.com/R2bPlRS.png)
+
+### Softmax层
+![](https://i.imgur.com/jMN6gqC.png)
+
+## 工程实际
+
+![](https://i.imgur.com/VimT7dw.png)
+
+## AlexNet
+
+- 基本概述
+![](https://i.imgur.com/7oQyh3h.png)
+- 局部响应归一化
+![](https://i.imgur.com/GNYk5py.png)
+![](https://i.imgur.com/rQpVNx9.png)
+
+## Network-in-Network(NiN)
+
+- 1*1卷积层，实现特征的降维，这个就是卷积核的大小
+![](https://i.imgur.com/10B7AxW.png)
+
+## VGG网络-2014
+
+- 卷积核的分解
+![](https://i.imgur.com/px0RIo1.png)
+- **由于最后的卷积层--->第一个全连接；就是需要全局卷积，这里的卷积核大小是超参数，是固定的参数，所以对输入图片的大小有要求；而ResNet对输入图片大小没有要求**
+- 网络结构，D,E结构用的多一些
+![](https://i.imgur.com/v80RTYu.png)
