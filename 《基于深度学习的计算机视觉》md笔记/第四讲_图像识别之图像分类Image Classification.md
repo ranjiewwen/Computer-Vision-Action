@@ -66,3 +66,24 @@
 - **由于最后的卷积层--->第一个全连接；就是需要全局卷积，这里的卷积核大小是超参数，是固定的参数，所以对输入图片的大小有要求；而ResNet对输入图片大小没有要求**
 - 网络结构，D,E结构用的多一些
 ![](https://i.imgur.com/v80RTYu.png)
+
+## GoogLeNet网络
+
+- 进化顺序
+![](https://i.imgur.com/73diBd6.png)
+- **Inception V1网络**
+- 和ResNet一样有基本的模块
+![](https://i.imgur.com/wOUbh4e.png)
+![](https://i.imgur.com/9VMcYYt.png)
+- 取消全连接层；最后的卷积层--->第一个全连接需要的参数最多
+![](https://i.imgur.com/vgrEqAB.png)
+- 网络结构
+![](https://i.imgur.com/6aZ09Tc.png)
+- 网络参数
+![](https://i.imgur.com/uOkd7tM.png)
+- 两个辅助分类器：深度网络中，梯度回传到最初层，严重消失；有效加速收敛，测试阶段不使用
+
+## Inception V2网络
+
+- 核心有批归一化
+![](https://i.imgur.com/9Oyl0Bz.png)
