@@ -81,9 +81,45 @@
 ![](https://i.imgur.com/6aZ09Tc.png)
 - 网络参数
 ![](https://i.imgur.com/uOkd7tM.png)
-- 两个辅助分类器：深度网络中，梯度回传到最初层，严重消失；有效加速收敛，测试阶段不使用
+- 两个辅助分类器：深度网络中，梯度回传到最初层，严重消失；有效加速收敛，**测试阶段不使用**
 
 ## Inception V2网络
 
 - 核心有批归一化
+- 一批一批batch进行处理，每一批在第k个通道进行均值方差归一化操作
 ![](https://i.imgur.com/9Oyl0Bz.png)
+![](https://i.imgur.com/GJYFLhP.png)
+![](https://i.imgur.com/Byodnfo.png)
+
+## Inception V3网络
+
+- 卷积进行分解：非对称卷积；三种分解方案
+![](https://i.imgur.com/aI1OKqA.png)
+
+- 高效的降尺寸：避免表达瓶颈
+![](https://i.imgur.com/4apUceo.png)
+![](https://i.imgur.com/XqKVgmY.png)
+- 网络整体框架
+![](https://i.imgur.com/JNOIEQn.png)
+
+## ResNet残差网络
+
+- skip/shortcut connection
+![](https://i.imgur.com/FBKEJbV.png)
+- 虚线有降维作用
+![](https://i.imgur.com/6hUr4Jb.png)
+- 往更深的走
+- 原始输入改为256，优化就是先通道降维，然后卷积，升维
+![](https://i.imgur.com/efUHIjQ.png)
+- 网络整体情况：5个卷积组
+![](https://i.imgur.com/57OGYTn.png)
+
+## Inception V4网络
+
+- 引入残差
+![](https://i.imgur.com/LuJtAji.png)
+
+## ResNeXt网络
+
+- 概况
+![](https://i.imgur.com/MSTBvGB.png)
