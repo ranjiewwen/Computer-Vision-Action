@@ -5,6 +5,7 @@ Logistic Regression Working Module
 @author: Peter
 '''
 from numpy import *
+import matplotlib.pyplot as plt
 
 def loadDataSet():
     dataMat = []; labelMat = []
