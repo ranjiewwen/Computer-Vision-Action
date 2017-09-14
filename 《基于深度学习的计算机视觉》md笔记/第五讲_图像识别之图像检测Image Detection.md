@@ -9,3 +9,53 @@
 - ILSVRC竞赛200类(每个图片多个标签)：输出类别+Bounding Box（x,y,w,h）
 - PASCAL VOC 2012只有20类
 ![](https://i.imgur.com/RlTboWN.png)
+- 模型进化
+![](https://i.imgur.com/QdVeMNB.png)
+
+## 区域卷积神经网络R-CNN-2014
+
+- 模型结构
+![](https://i.imgur.com/sWzqbLB.png)
+- selective search+CNN特征+svm+Bounding box regression
+![](https://i.imgur.com/nFNUBAB.png)
+- Regiom proposals
+- 训练流程
+![](https://i.imgur.com/bXTzWoh.png)
+![](https://i.imgur.com/6z20Lf2.png)
+![](https://i.imgur.com/3zhxTIW.png)
+- 测试阶段
+![](https://i.imgur.com/UKdzcx7.png)
+- RCNN性能大幅提升
+![](https://i.imgur.com/5B93Jzu.png)
+
+## SPPNet网络-2014
+
+- R-CNN速度慢的重要原因：卷积特征重复计算量太大
+![](https://i.imgur.com/ivKtrPu.png)
+- spp技术实现了共享计算，适应不同输入尺寸
+![](https://i.imgur.com/iE1D7Kh.png)
+- SPP层具体实现
+![](https://i.imgur.com/g4sWMAj.png)
+- sppNet问题
+![](https://i.imgur.com/DIopWBM.png)
+
+## Fast-R-CNN-2015
+
+- 改进；更高mAP(类似AUC曲线下的面积)
+![](https://i.imgur.com/B0QG6jV.png)
+- 网络结构
+![](https://i.imgur.com/0kUxynw.png)
+![](https://i.imgur.com/5qoXc8W.png)
+![](https://i.imgur.com/8yIskW0.png)
+![](https://i.imgur.com/PBelkwe.png)
+- 训练阶段
+![](https://i.imgur.com/jxDrL7u.png)
+
+## Faster-R-CNN-2015
+
+- 概况，引导CNN关注区域
+![](https://i.imgur.com/pJEAaAs.png)
+- Region Proposal Network
+![](https://i.imgur.com/hLuS9BZ.png)
+- 训练过程
+![](https://i.imgur.com/DXUyJQn.png)
