@@ -8,7 +8,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 xcord0 = []; ycord0 = []; xcord1 = []; ycord1 = []
-fw = open('testSetRBF2.txt', 'w')#generate data
+fw = open('testSetRBF2.txt', 'w')  # generate data
 
 fig = plt.figure()
 ax = fig.add_subplot(111)

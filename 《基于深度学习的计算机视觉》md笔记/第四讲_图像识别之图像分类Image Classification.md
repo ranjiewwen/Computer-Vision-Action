@@ -81,9 +81,67 @@
 ![](https://i.imgur.com/6aZ09Tc.png)
 - 网络参数
 ![](https://i.imgur.com/uOkd7tM.png)
-- 两个辅助分类器：深度网络中，梯度回传到最初层，严重消失；有效加速收敛，测试阶段不使用
+- 两个辅助分类器：深度网络中，梯度回传到最初层，严重消失；有效加速收敛，**测试阶段不使用**
 
 ## Inception V2网络
 
 - 核心有批归一化
+- 一批一批batch进行处理，每一批在第k个通道进行均值方差归一化操作
 ![](https://i.imgur.com/9Oyl0Bz.png)
+![](https://i.imgur.com/GJYFLhP.png)
+![](https://i.imgur.com/Byodnfo.png)
+
+## Inception V3网络
+
+- 卷积进行分解：非对称卷积；三种分解方案
+![](https://i.imgur.com/aI1OKqA.png)
+
+- 高效的降尺寸：避免表达瓶颈
+![](https://i.imgur.com/4apUceo.png)
+![](https://i.imgur.com/XqKVgmY.png)
+- 网络整体框架
+![](https://i.imgur.com/JNOIEQn.png)
+
+## ResNet残差网络
+
+- skip/shortcut connection
+![](https://i.imgur.com/FBKEJbV.png)
+- 虚线有降维作用
+![](https://i.imgur.com/6hUr4Jb.png)
+- 往更深的走
+- 原始输入改为256，优化就是先通道降维，然后卷积，升维
+![](https://i.imgur.com/efUHIjQ.png)
+- 网络整体情况：5个卷积组
+![](https://i.imgur.com/57OGYTn.png)
+
+## Inception V4网络
+
+- 引入残差
+![](https://i.imgur.com/LuJtAji.png)
+
+## ResNeXt网络
+
+- 概况
+![](https://i.imgur.com/MSTBvGB.png)
+- 1**1卷积就相当于全连接降通道数
+- 32**4d块，保证参数量不变；32*4=128通道是普通64通道的2倍
+- 分支数就是基数，网络宽度就是分支数*每个分支的通道数
+![](https://i.imgur.com/mUFlYv1.png)
+![](https://i.imgur.com/LzoSiPM.png)
+
+## CNN设计准则
+
+- 避免信息瓶颈：数据量H**W(尺度大小)*C(通道数)变换要缓慢；通道数要不能弥补尺度减小，但要缓慢
+
+- 通道（卷积核）数量保持在可控范围内
+
+- 感受野要足够大
+![](https://i.imgur.com/xztlGto.png)
+
+- 分组策略--降低计算量
+- 低秩分解
+![](https://i.imgur.com/E40a5Tx.png)
+
+## 实验结果
+
+- 代码实验ResNet
