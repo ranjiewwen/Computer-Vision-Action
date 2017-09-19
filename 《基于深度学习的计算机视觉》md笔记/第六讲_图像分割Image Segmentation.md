@@ -3,6 +3,7 @@
 - 目录
 ![](https://i.imgur.com/Siii1wX.png)
 - +三大数据库
+![](https://i.imgur.com/Eu4kuqZ.png)
 
 ### 显著性检测saliency detection
 
@@ -45,6 +46,16 @@
 - 32倍降采样
 ![](https://i.imgur.com/lTJlyNF.png)
 
+- FCN卷积操作矩阵化
+![](https://i.imgur.com/WK5nXOy.png)
+- 反卷积对应于梯度回传
+- padding=2；
+![](https://i.imgur.com/aBSKMKl.png)
+- 卷积和转置卷积的参数关系
+- 当s>1时，s=1；为实现小数步长，需要插零补充
+![](https://i.imgur.com/EfYEpzQ.png)
+- 当不整除时候，在上边右边在需要补零
+![](https://i.imgur.com/MRbGHKS.png)
 - FCN-反卷积
 ![](https://i.imgur.com/E4ldnQV.png)
 - 输入输出分奇偶情况
@@ -62,3 +73,28 @@
 - VGG-16效果最优
 - FCN结果
 ![](https://i.imgur.com/vknnvrZ.png)
+
+## DeepLab网络=DCNN+CRF
+
+- DeepLab全卷积网络
+![](https://i.imgur.com/QWoJpdf.png)
+![](https://i.imgur.com/3M2MDGj.png)
+- 孔（Hole）算法
+![](https://i.imgur.com/S5uapmM.png)
+
+- 膨胀卷积
+- 这样使与训练模型可以使用
+![](https://i.imgur.com/1PnDRmD.png)
+- 效果：膨胀卷积的核参数和降采样参数对应
+![](https://i.imgur.com/vrUcFlC.png)
+- Atrous空间金字塔池化
+![](https://i.imgur.com/VrfFC40.png)
+
+- 全连接CRF:精确边界分割
+![](https://i.imgur.com/lJRnTH9.png)
+
+### 数据集
+
+- cityscapes
+- pascal voc
+- mscoco（没有像素标准，多边形标准）,coco-stuff
