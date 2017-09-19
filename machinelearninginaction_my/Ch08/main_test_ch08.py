@@ -25,4 +25,16 @@ ax.plot(xCopy[:,1],yHat)
 plt.show()
 
 yHat=xMat*ws
-print corrcoef(yHat.T,yMat)
+print corrcoef(yHat.T,yMat ) 
+
+reload(regression)
+xArr,yArr=regression.loadDataSet('abalone.txt')
+# regression.stageWise(xArr,yArr,0.01,200)
+# 更改步长和迭代次数
+# regression.stageWise(xArr,yArr,0.001,5000)
+
+
+lgX=[]
+lgY=[]
+
+regression.setDataCollect(lgX,lgY)

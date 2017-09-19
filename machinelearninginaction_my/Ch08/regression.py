@@ -1,3 +1,4 @@
+# coding:utf-8
 '''
 Created on Jan 8, 2011
 
@@ -90,6 +91,9 @@ def regularize(xMat):#regularize by columns
     inMat = (inMat - inMeans)/inVar
     return inMat
 
+
+################### 前向逐步回归 ###########################
+
 def stageWise(xArr,yArr,eps=0.01,numIt=100):
     xMat = mat(xArr); yMat=mat(yArr).T
     yMean = mean(yMat,0)
@@ -99,7 +103,7 @@ def stageWise(xArr,yArr,eps=0.01,numIt=100):
     #returnMat = zeros((numIt,n)) #testing code remove
     ws = zeros((n,1)); wsTest = ws.copy(); wsMax = ws.copy()
     for i in range(numIt):
-        print ws.T
+        #print ws.T
         lowestError = inf; 
         for j in range(n):
             for sign in [-1,1]:
