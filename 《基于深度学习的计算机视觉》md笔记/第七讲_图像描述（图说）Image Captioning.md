@@ -48,3 +48,27 @@
 
 - 为图片生成描述语言
 ![](https://i.imgur.com/1nXOA84.png)
+
+- 具有多模态理解和推理；复合理解与推理等研究难点和挑战
+![](https://i.imgur.com/LGQ7Psm.png)
+- 传统的分段处理策略
+![](https://i.imgur.com/Hb4W5Ke.png)
+- 新的点对点策略
+![](https://i.imgur.com/C2SQdLw.png)
+- 模型组成
+![](https://i.imgur.com/9jXMpgG.png)
+
+## Show and tell 模型
+
+- 概述
+![](https://i.imgur.com/xqlk5U8.png)
+![](https://i.imgur.com/eIHkgHk.png)
+
+- 具有attention机制模型
+![](https://i.imgur.com/I6hYXMy.png)
+![](https://i.imgur.com/jtipXQG.png)
+
+### 数据集
+
+- MSCOCO标注集
+![](https://i.imgur.com/Xw0CvFK.png)
