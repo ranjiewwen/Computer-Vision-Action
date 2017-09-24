@@ -1,3 +1,4 @@
+# coding:utf-8
 '''
 Created on Jan 8, 2011
 
@@ -18,6 +19,7 @@ def loadDataSet(fileName):      #general function to parse tab -delimited floats
         labelMat.append(float(curLine[-1]))
     return dataMat,labelMat
 
+# 标准的回归方程
 def standRegres(xArr,yArr):
     xMat = mat(xArr); yMat = mat(yArr).T
     xTx = xMat.T*xMat
@@ -59,6 +61,7 @@ def lwlrTestPlot(xArr,yArr,k=1.0):  #same thing as lwlrTest except it sorts X fi
 def rssError(yArr,yHatArr): #yArr and yHatArr both need to be arrays
     return ((yArr-yHatArr)**2).sum()
 
+# 岭回归方程
 def ridgeRegres(xMat,yMat,lam=0.2):
     xTx = xMat.T*xMat
     denom = xTx + eye(shape(xMat)[1])*lam
@@ -90,6 +93,9 @@ def regularize(xMat):#regularize by columns
     inMat = (inMat - inMeans)/inVar
     return inMat
 
+
+################### 前向逐步回归 ###########################
+
 def stageWise(xArr,yArr,eps=0.01,numIt=100):
     xMat = mat(xArr); yMat=mat(yArr).T
     yMean = mean(yMat,0)
@@ -99,7 +105,7 @@ def stageWise(xArr,yArr,eps=0.01,numIt=100):
     #returnMat = zeros((numIt,n)) #testing code remove
     ws = zeros((n,1)); wsTest = ws.copy(); wsMax = ws.copy()
     for i in range(numIt):
-        print ws.T
+        #print ws.T
         lowestError = inf; 
         for j in range(n):
             for sign in [-1,1]:
@@ -150,7 +156,7 @@ def searchForSet(retX, retY, setNum, yr, numPce, origPrc):
     sleep(10)
     myAPIstr = 'AIzaSyD2cR2KFyx12hXu6PFU-wrWot3NXvko8vY'
     searchURL = 'https://www.googleapis.com/shopping/search/v1/public/products?key=%s&country=US&q=lego+%d&alt=json' % (myAPIstr, setNum)
-    pg = urllib2.urlopen(searchURL)
+    pg = urllib2.urlopen(searchURL) # bug
     retDict = json.loads(pg.read())
     for i in range(len(retDict['items'])):
         try:
@@ -196,7 +202,7 @@ def crossValidation(xArr,yArr,numVal=10):
             meanTrain = mean(matTrainX,0)
             varTrain = var(matTrainX,0)
             matTestX = (matTestX-meanTrain)/varTrain #regularize test with training params
-            yEst = matTestX * mat(wMat[k,:]).T + mean(trainY)#test ridge results and store
+            yEst = matTestX * mat(wMat[k,:]).T + mean(trainY) #test ridge results and store
             errorMat[i,k]=rssError(yEst.T.A,array(testY))
             #print errorMat[i,k]
     meanErrors = mean(errorMat,0)#calc avg performance of the different ridge weight vectors

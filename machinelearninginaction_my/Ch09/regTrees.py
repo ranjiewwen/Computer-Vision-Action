@@ -1,3 +1,5 @@
+
+#coding: utf-8 
 '''
 Created on Feb 4, 2011
 Tree-Based Regression Methods
@@ -14,12 +16,19 @@ def loadDataSet(fileName):      #general function to parse tab -delimited floats
         dataMat.append(fltLine)
     return dataMat
 
-def binSplitDataSet(dataSet, feature, value):
-    mat0 = dataSet[nonzero(dataSet[:,feature] > value)[0],:][0]
-    mat1 = dataSet[nonzero(dataSet[:,feature] <= value)[0],:][0]
-    return mat0,mat1
+## IndexError: index 0 is out of bounds for axis 0 with size 0
+#def binSplitDataSet(dataSet, feature, value):
+#    mat0 = dataSet[nonzero(dataSet[:,feature] > value)[0],:][0]
+#    mat1 = dataSet[nonzero(dataSet[:,feature] <= value)[0],:][0]
+#    return mat0,mat1
 
-def regLeaf(dataSet):#returns the value used for each leaf
+def binSplitDataSet(dataSet,feature,value):  
+    mat0 = dataSet[nonzero(dataSet[:, feature] > value)[0],:]  
+    mat1 = dataSet[nonzero(dataSet[:, feature] <= value)[0],:]  
+    return mat0, mat1  
+
+## 回归树
+def regLeaf(dataSet):  #returns the value used for each leaf
     return mean(dataSet[:,-1])
 
 def regErr(dataSet):
@@ -27,7 +36,7 @@ def regErr(dataSet):
 
 def linearSolve(dataSet):   #helper function used in two places
     m,n = shape(dataSet)
-    X = mat(ones((m,n))); Y = mat(ones((m,1)))#create a copy of data with 1 in 0th postion
+    X = mat(ones((m,n))); Y = mat(ones((m,1)))  #create a copy of data with 1 in 0th postion
     X[:,1:n] = dataSet[:,0:n-1]; Y = dataSet[:,-1]#and strip out Y
     xTx = X.T*X
     if linalg.det(xTx) == 0.0:
@@ -36,6 +45,7 @@ def linearSolve(dataSet):   #helper function used in two places
     ws = xTx.I * (X.T * Y)
     return ws,X,Y
 
+## 模型树
 def modelLeaf(dataSet):#create linear model and return coeficients
     ws,X,Y = linearSolve(dataSet)
     return ws
@@ -55,7 +65,8 @@ def chooseBestSplit(dataSet, leafType=regLeaf, errType=regErr, ops=(1,4)):
     S = errType(dataSet)
     bestS = inf; bestIndex = 0; bestValue = 0
     for featIndex in range(n-1):
-        for splitVal in set(dataSet[:,featIndex]):
+        #for splitVal in set(dataSet[:,featIndex]):  # reference: http://blog.csdn.net/shengyingpo/article/details/52860960
+        for splitVal in set((dataSet[:,featIndex].T.A.tolist())[0]):  
             mat0, mat1 = binSplitDataSet(dataSet, featIndex, splitVal)
             if (shape(mat0)[0] < tolN) or (shape(mat1)[0] < tolN): continue
             newS = errType(mat0) + errType(mat1)
@@ -95,6 +106,7 @@ def prune(tree, testData):
     if shape(testData)[0] == 0: return getMean(tree) #if we have no test data collapse the tree
     if (isTree(tree['right']) or isTree(tree['left'])):#if the branches are not trees try to prune them
         lSet, rSet = binSplitDataSet(testData, tree['spInd'], tree['spVal'])
+        
     if isTree(tree['left']): tree['left'] = prune(tree['left'], lSet)
     if isTree(tree['right']): tree['right'] =  prune(tree['right'], rSet)
     #if they are now both leafs, see if we can merge them

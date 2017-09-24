@@ -93,7 +93,7 @@ def adaBoostTrainDS_plt(dataArr,classLabels,numIt=40):
     D = mat(ones((m,1))/m)   #init D to all equal
     aggClassEst = mat(zeros((m,1)))
     for i in range(numIt):
-        bestStump,error,classEst = buildStump(dataArr,classLabels,D)#build Stump
+        bestStump,error,classEst = buildStump(dataArr,classLabels,D)  # build Stump
         #print "D:",D.T
         alpha = float(0.5*log((1.0-error)/max(error,1e-16)))#calc alpha, throw in max(error,eps) to account for error=0
         bestStump['alpha'] = alpha

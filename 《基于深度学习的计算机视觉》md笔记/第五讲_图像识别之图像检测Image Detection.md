@@ -60,3 +60,29 @@
 - 训练过程
 ![](https://i.imgur.com/DXUyJQn.png)
 
+<<<<<<< HEAD
+=======
+## 区域全卷积神经网络R-FCN
+
+- 回顾
+![](https://i.imgur.com/uOfiBfl.png)
+- F-RCN的设计过程
+- 分类问题对尺寸，方向等变换不敏感，网络越深，分类效果很好；但是检测对变换敏感
+![](https://i.imgur.com/LmeL8Nk.png)
+![](https://i.imgur.com/qpSSELa.png)
+- 结构图：三部分
+![](https://i.imgur.com/S7lxbvQ.png)
+- 理解K2(C+1)个通道，映射到每类K2个score map
+![](https://i.imgur.com/ND4OX6M.png)
+![](https://i.imgur.com/Cke20fC.png)
+
+## 人脸检测/行人检测
+
+- 主流数据库
+![](https://i.imgur.com/0CsJdpV.png)
+- WIDER FACE
+- IJB-A
+- Caltech
+
+
+>>>>>>> 28ec8f8b962764bfc99e284a98b87481f0cd348f
