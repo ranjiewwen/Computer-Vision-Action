@@ -1,3 +1,4 @@
+# coding:utf-8
 '''
 Created on Feb 16, 2011
 k Means Clustering for Ch10 of Machine Learning in Action
@@ -58,12 +59,12 @@ def biKmeans(dataSet, k, distMeas=distEclud):
     while (len(centList) < k):
         lowestSSE = inf
         for i in range(len(centList)):
-            ptsInCurrCluster = dataSet[nonzero(clusterAssment[:,0].A==i)[0],:]#get the data points currently in cluster i
+            ptsInCurrCluster = dataSet[nonzero(clusterAssment[:,0].A==i)[0],:]  #get the data points currently in cluster i
             centroidMat, splitClustAss = kMeans(ptsInCurrCluster, 2, distMeas)
             sseSplit = sum(splitClustAss[:,1])#compare the SSE to the currrent minimum
             sseNotSplit = sum(clusterAssment[nonzero(clusterAssment[:,0].A!=i)[0],1])
             print "sseSplit, and notSplit: ",sseSplit,sseNotSplit
-            if (sseSplit + sseNotSplit) < lowestSSE:
+            if (sseSplit + sseNotSplit) < lowestSSE:  ## 遍历所有族，找到最优划分族；然后在执行划分
                 bestCentToSplit = i
                 bestNewCents = centroidMat
                 bestClustAss = splitClustAss.copy()
