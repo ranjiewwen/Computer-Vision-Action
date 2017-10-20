@@ -60,8 +60,6 @@
 - 训练过程
 ![](https://i.imgur.com/DXUyJQn.png)
 
-<<<<<<< HEAD
-=======
 ## 区域全卷积神经网络R-FCN
 
 - 回顾
@@ -85,4 +83,3 @@
 - Caltech
 
 
->>>>>>> 28ec8f8b962764bfc99e284a98b87481f0cd348f
