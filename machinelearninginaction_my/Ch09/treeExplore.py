@@ -20,7 +20,7 @@ def reDraw(tolS,tolN):
     else:
         myTree=regTrees.createTree(reDraw.rawDat, ops=(tolS,tolN))
         yHat = regTrees.createForeCast(myTree, reDraw.testDat)
-    reDraw.a.scatter(reDraw.rawDat[:,0], reDraw.rawDat[:,1], s=5) #use scatter for data set
+    reDraw.a.scatter([reDraw.rawDat[:,0]], [reDraw.rawDat[:,1]],s=5) #use scatter for data set  #bug problem [[ ** ]]
     reDraw.a.plot(reDraw.testDat, yHat, linewidth=2.0) #use plot for yHat
     reDraw.canvas.show()
     
