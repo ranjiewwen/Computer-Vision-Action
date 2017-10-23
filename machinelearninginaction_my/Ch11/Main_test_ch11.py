@@ -1,6 +1,7 @@
-# coding :utf-8
+# coding:utf-8
 
 import apriori
+
 # 发现频繁项集和发现关联规则
 
 dataSet=apriori.loadDataSet()
@@ -17,3 +18,10 @@ print (L1)
 
 L,suppData=apriori.apriori(dataSet)
 print(L)
+
+L,suppData=apriori.apriori(dataSet,minSupport=0.5)
+rules=apriori.generateRules(L,suppData,minConf=0.7)
+print rules
+
+rules=apriori.generateRules(L,suppData,minConf=0.5)
+print rules
