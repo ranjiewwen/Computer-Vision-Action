@@ -17,3 +17,8 @@ print(initSet)
 
 myFPtree,myHeaderTab=fpGrowth.createTree(initSet,3)
 myFPtree.disp()
+
+#print(myHeaderTab['r'][1])
+
+result=fpGrowth.findPrefixPath('r',myHeaderTab['r'][1])
+print(result)
