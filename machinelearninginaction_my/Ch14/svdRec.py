@@ -33,6 +33,7 @@ def ecludSim(inA,inB):
 
 def pearsSim(inA,inB):
     if len(inA) < 3 : return 1.0
+    print corrcoef(inA, inB, rowvar = 0).shape
     return 0.5+0.5*corrcoef(inA, inB, rowvar = 0)[0][1]
 
 def cosSim(inA,inB):
