@@ -21,10 +21,12 @@ print (rec_image)
 
 myMat=mat(svdRec.loadExData())
 dis=svdRec.ecludSim(myMat[:,0],myMat[:,4])
-print dis
+print (dis)
 
 dis=svdRec.cosSim(myMat[:,0],myMat[:,4])
 print dis
 
 dis=svdRec.pearsSim(myMat[:,0],myMat[:,4])
 print dis
+
+svdRec.recommend(myMat,2)
