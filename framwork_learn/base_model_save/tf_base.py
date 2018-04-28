@@ -13,3 +13,7 @@ with tf.Session() as sess:
 
 print(v1.graph is tf.get_default_graph())
 
+x = tf.placeholder(tf.float32, shape=[None, 3])
+y = tf.layers.dense(x, units=1)
+
+linear_model=tf.layers.Dense(units=1)
