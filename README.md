@@ -3,6 +3,8 @@ computer vision learning
 
 ## python learning
 
+- [Python机器学习实战-MOOC学习](http://www.icourse163.org/course/BIT-1001872001)
+
 ## image processing
 
 - Opencv
@@ -11,9 +13,19 @@ computer vision learning
 ## machine learning
 
 - sklearn
-- machinelearninginaction
+- Machine Learning in Action：阅读机器学习实战并分析代码实现
+
+## 基于深度学习的计算机视觉
+
+- 小象学院课程学习笔记，PPT和资源都很详细
 
 ## deeping learning
+
+- deepleraning.ai-course ：Neural Networks and Deep Learning，Improving Deep Neural Networks，Convolutional Neural Network
+
+## 其他资料
+
+- paper:Deep-Learning-Papers , AdversarialNetsPapers
 
 - [tiny-dnn](https://github.com/ranjiewwen/tiny-dnn)
 > header only, dependency-free deep learning framework in C++11
