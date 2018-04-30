@@ -11,21 +11,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tf_base.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tf_base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base_model_save/tf_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="112">
+              <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+              <folding>
+                <element signature="e#1042#1080#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_tensorboard.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_tensorboard.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base_model_save/test_tensorboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state relative-caret-position="266">
+              <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
               <folding>
                 <element signature="e#365#403#0" expanded="true" />
               </folding>
@@ -55,8 +57,8 @@
         <option value="$PROJECT_DIR$/visual_test.py" />
         <option value="$PROJECT_DIR$/tflearn_visual_tet.py" />
         <option value="$PROJECT_DIR$/tf_base.py" />
-        <option value="$PROJECT_DIR$/base_model_save/test_tensorboard.py" />
         <option value="$PROJECT_DIR$/base_model_save/tf_base.py" />
+        <option value="$PROJECT_DIR$/base_model_save/test_tensorboard.py" />
       </list>
     </option>
   </component>
@@ -112,25 +114,6 @@
               <item name="framwork_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="framwork_learn" type="462c0819:PsiDirectoryNode" />
               <item name="base_model_save" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framwork_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framwork_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="base_model_save" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framwork_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framwork_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="base_model_save" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framwork_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framwork_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="base_model_save" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="framwork_learn" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +302,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base_model_save/tf_base.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -567,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base_model_save/test_tensorboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <element signature="e#365#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda2/envs/tf1.4_py35/lib/python3.5/site-packages/tensorflow/python/ops/variables.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -595,9 +575,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base_model_save/tf_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="112">
+          <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+          <folding>
+            <element signature="e#1042#1080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_model_save/test_tensorboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+          <folding>
+            <element signature="e#365#403#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
