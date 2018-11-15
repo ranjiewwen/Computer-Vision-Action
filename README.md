@@ -7,6 +7,7 @@ computer vision learning
 - [YapengTian/Single-Image-Super-Resolution](https://github.com/YapengTian/Single-Image-Super-Resolution)
 - [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 - [zhangqianhui/AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers)
+- [Jyouhou/SceneTextPapers](https://github.com/Jyouhou/SceneTextPapers)
 
 ## python learning
 
