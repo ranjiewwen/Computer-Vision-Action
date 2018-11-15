@@ -8,6 +8,9 @@ computer vision learning
 - [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 - [zhangqianhui/AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers)
 - [Jyouhou/SceneTextPapers](https://github.com/Jyouhou/SceneTextPapers)
+- [ lzhbrian/image-to-image-papers](https://github.com/lzhbrian/image-to-image-papers)
+- [junyanz/CatPapers](https://github.com/junyanz/CatPapers)
+- [TerenceCYJ/3D-Hand-Pose-Estimation-Papers](https://github.com/TerenceCYJ/3D-Hand-Pose-Estimation-Papers)
 
 ## python learning
 
