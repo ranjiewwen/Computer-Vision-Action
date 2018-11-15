@@ -1,6 +1,13 @@
 # CV_class
 computer vision learning
 
+## main computer vision task
+
+- [wenbihan/reproducible-image-denoising-state-of-the-art](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
+- [YapengTian/Single-Image-Super-Resolution](https://github.com/YapengTian/Single-Image-Super-Resolution)
+- [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+- [zhangqianhui/AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers)
+
 ## python learning
 
 - [Python机器学习实战-MOOC学习](http://www.icourse163.org/course/BIT-1001872001)
