@@ -11,6 +11,7 @@ computer vision learning
 - [ lzhbrian/image-to-image-papers](https://github.com/lzhbrian/image-to-image-papers)
 - [junyanz/CatPapers](https://github.com/junyanz/CatPapers)
 - [TerenceCYJ/3D-Hand-Pose-Estimation-Papers](https://github.com/TerenceCYJ/3D-Hand-Pose-Estimation-Papers)
+- [willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
 
 ## python learning
 
