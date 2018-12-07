@@ -14,6 +14,12 @@ computer vision learning
 - [willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
 - [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
 
+## Segmentation 
+
+- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
+- [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
+- [ansleliu/LightNet](https://github.com/ansleliu/LightNet)
+
 ## python learning
 
 - [Python机器学习实战-MOOC学习](http://www.icourse163.org/course/BIT-1001872001)
