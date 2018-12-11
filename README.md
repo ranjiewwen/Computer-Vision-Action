@@ -20,6 +20,7 @@ computer vision learning
 - [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
 - [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
 - [ansleliu/LightNet](https://github.com/ansleliu/LightNet)
+- [Semantic Segmentation](https://www.aiuai.cn/aifarm62.html)
 
 ## python learning
 
