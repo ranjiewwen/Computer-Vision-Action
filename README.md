@@ -14,6 +14,7 @@ computer vision learning
 - [willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
 - [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
 - [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
+- [visual tracker benchmark results](https://github.com/foolwood/benchmark_results)
 
 ## Segmentation 
 
