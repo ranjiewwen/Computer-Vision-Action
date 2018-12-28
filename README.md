@@ -1,5 +1,5 @@
-# CV_class
-computer vision learning
+
+# computer vision task collect
 
 ## main computer vision task
 
@@ -22,6 +22,12 @@ computer vision learning
 - [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
 - [ansleliu/LightNet](https://github.com/ansleliu/LightNet)
 - [Semantic Segmentation](https://www.aiuai.cn/aifarm62.html)
+
+## conference
+
+- [2018-2019 International Conferences](https://github.com/JackieTseng/conference_call_for_paper)
+
+# computer vision study 
 
 ## python learning
 
