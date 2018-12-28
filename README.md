@@ -1,5 +1,5 @@
 
-# computer vision task collect
+# Computer Vision Task Collect
 
 ## main computer vision task
 
@@ -16,7 +16,7 @@
 - [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
 - [visual tracker benchmark results](https://github.com/foolwood/benchmark_results)
 
-## Segmentation 
+## segmentation 
 
 - [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
 - [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
@@ -27,11 +27,11 @@
 
 - [2018-2019 International Conferences](https://github.com/JackieTseng/conference_call_for_paper)
 
-# computer vision study 
+# Computer Vision Study 
 
 ## python learning
 
-- [Python机器学习实战-MOOC学习](http://www.icourse163.org/course/BIT-1001872001)
+- [python machine learning in mooc](http://www.icourse163.org/course/BIT-1001872001)
 
 ## image processing
 
@@ -40,25 +40,25 @@
 
 ## machine learning
 
-- sklearn
-- Machine Learning in Action：阅读机器学习实战并分析代码实现
+- Sklearn
+- Machine Learning in Action：Read machine learning and analyze code implementation.
 
 ## deeping learning
 
-- deepleraning.ai-course ：Neural Networks and Deep Learning，Improving Deep Neural Networks，Convolutional Neural Network
+- deepleraning.ai-course ：Neural Networks and Deep Learning，Improving Deep Neural Networks，Convolutional Neural Network.
 
-## 基于深度学习的计算机视觉
+## computer vision based on deep learning
 
-- 小象学院课程学习笔记，PPT和资源都很详细
+- Xiaoxiang College course study notes, PPT and resources are very detailed.
 
-## 其他资料
-
-- paper:Deep-Learning-Papers , AdversarialNetsPapers
+## other information
 
 - [tiny-dnn](https://github.com/ranjiewwen/tiny-dnn)
+
 > header only, dependency-free deep learning framework in C++11
+
 - [DeepLearnToolbox](https://github.com/DIP-ML-AI/DeepLearnToolbox)
-> Matlab/Octave toolbox for deep learning. Includes Deep Belief Nets, Stacked Autoencoders, Convolutional Neural Nets, Convolutional Autoencoders and vanilla Neural Nets. Each method has examples to get you started. Edit
-Add topics
+
+> Matlab/Octave toolbox for deep learning. Includes Deep Belief Nets, Stacked Autoencoders, Convolutional Neural Nets, Convolutional Autoencoders and vanilla Neural Nets. Each method has examples to get you started.
 - MatConvNet
 - CS231
