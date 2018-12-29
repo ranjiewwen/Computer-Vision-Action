@@ -17,6 +17,7 @@
 - [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
 - [visual tracker benchmark results](https://github.com/foolwood/benchmark_results)
 
+
 ## object detection
 
 - [amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
@@ -28,10 +29,15 @@
 - [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
 - [ansleliu/LightNet](https://github.com/ansleliu/LightNet)
 - [Semantic Segmentation](https://www.aiuai.cn/aifarm62.html)
+- [Semantic Segmentation论文整理](https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/)
 
 ## conference
 
 - [2018-2019 International Conferences](https://github.com/JackieTseng/conference_call_for_paper)
+
+## dataset
+
+- [遥感数据集](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
 
 # Computer Vision Study 
 
