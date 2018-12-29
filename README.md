@@ -5,6 +5,7 @@
 
 - [wenbihan/reproducible-image-denoising-state-of-the-art](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
 - [YapengTian/Single-Image-Super-Resolution](https://github.com/YapengTian/Single-Image-Super-Resolution)
+- [LoSealL/VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution)
 - [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 - [zhangqianhui/AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers)
 - [Jyouhou/SceneTextPapers](https://github.com/Jyouhou/SceneTextPapers)
@@ -15,6 +16,11 @@
 - [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
 - [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
 - [visual tracker benchmark results](https://github.com/foolwood/benchmark_results)
+
+## object detection
+
+- [amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
+- [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
 
 ## segmentation 
 
