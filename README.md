@@ -22,12 +22,20 @@
 
 - [amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
 - [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
+- [DetectionTeamUCAS-TF](https://github.com/DetectionTeamUCAS)
+- [facebookresearch/maskrcnn-benchmark-pytorch](https://github.com/facebookresearch/maskrcnn-benchmark)
+
+## image retrieval/search
+
+- [filipradenovic/cnnimageretrieval-pytorch](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
+- [Cysu/open-reid](https://github.com/Cysu/open-reid)
+- [layumi/Person_reID_baseline_PyTorch](https://github.com/layumi/Person_reID_baseline_pytorch)
 
 ## segmentation 
 
 - [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
-- [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
-- [ansleliu/LightNet](https://github.com/ansleliu/LightNet)
+- [GeorgeSeif/Semantic-Segmentation-Suite-TF](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
+- [ansleliu/LightNet-PyTorch](https://github.com/ansleliu/LightNet)
 - [Semantic Segmentation](https://www.aiuai.cn/aifarm62.html)
 - [Semantic Segmentation论文整理](https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/)
 
