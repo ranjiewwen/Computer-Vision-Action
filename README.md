@@ -24,6 +24,7 @@
 - [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
 - [DetectionTeamUCAS-TF](https://github.com/DetectionTeamUCAS)
 - [facebookresearch/maskrcnn-benchmark-pytorch](https://github.com/facebookresearch/maskrcnn-benchmark)
+- [roytseng-tw/Detectron.pytorch](https://github.com/roytseng-tw/Detectron.pytorch)
 
 ## image retrieval/search
 
@@ -33,9 +34,10 @@
 
 ## segmentation 
 
-- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
 - [GeorgeSeif/Semantic-Segmentation-Suite-TF](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
 - [ansleliu/LightNet-PyTorch](https://github.com/ansleliu/LightNet)
+- [meetshah1995/pytorch-semseg](https://github.com/meetshah1995/pytorch-semseg)
+- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
 - [Semantic Segmentation](https://www.aiuai.cn/aifarm62.html)
 - [Semantic Segmentation论文整理](https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/)
 
