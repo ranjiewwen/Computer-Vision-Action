@@ -50,6 +50,11 @@
 
 - [遥感数据集](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
 
+# Kaggle-Action
+
+- [iphysresearch/DataSciComp: Active Competitons to Join ](https://github.com/iphysresearch/DataSciComp)
+- [Data-Competition-TopSolution](https://github.com/Smilexuhc/Data-Competition-TopSolution)
+
 # Computer Vision Study 
 
 ## python learning
