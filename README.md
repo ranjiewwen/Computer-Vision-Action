@@ -17,7 +17,7 @@
 - [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
 - [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
 - [visual tracker benchmark results](https://github.com/foolwood/benchmark_results)
-
+- [gjy3035/Awesome-Crowd-Counting](https://github.com/gjy3035/Awesome-Crowd-Counting)
 
 ## object detection
 
