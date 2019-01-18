@@ -35,6 +35,7 @@
 - [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 - [kjw0612/awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision)
 - [ dragen1860/awesome-AutoML](https://github.com/dragen1860/awesome-AutoML)
+- [kjw0612/awesome-rnn](https://github.com/kjw0612/awesome-rnn)
 
 ## object detection
 
