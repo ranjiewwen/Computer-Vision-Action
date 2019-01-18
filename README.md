@@ -3,21 +3,38 @@
 
 ## main computer vision task
 
+### low level
+
 - [wenbihan/reproducible-image-denoising-state-of-the-art](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
 - [YapengTian/Single-Image-Super-Resolution](https://github.com/YapengTian/Single-Image-Super-Resolution)
 - [LoSealL/VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution)
-- [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
-- [zhangqianhui/AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers)
-- [Jyouhou/SceneTextPapers](https://github.com/Jyouhou/SceneTextPapers)
-- [ lzhbrian/image-to-image-papers](https://github.com/lzhbrian/image-to-image-papers)
+
+### high level
+
 - [junyanz/CatPapers](https://github.com/junyanz/CatPapers)
 - [TerenceCYJ/3D-Hand-Pose-Estimation-Papers](https://github.com/TerenceCYJ/3D-Hand-Pose-Estimation-Papers)
 - [wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
 - [willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
-- [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
-- [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
 - [visual tracker benchmark results](https://github.com/foolwood/benchmark_results)
 - [gjy3035/Awesome-Crowd-Counting](https://github.com/gjy3035/Awesome-Crowd-Counting)
+- [https://github.com/ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition)
+
+### GAN and Text
+
+- [zhangqianhui/AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers)
+- [ lzhbrian/image-to-image-papers](https://github.com/lzhbrian/image-to-image-papers)
+- [Jyouhou/SceneTextPapers](https://github.com/Jyouhou/SceneTextPapers)
+- [chongyangtao/Awesome-Scene-Text-Recognition](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition)
+- [wanghaisheng/awesome-ocr](https://github.com/wanghaisheng/awesome-ocr)
+- [ChenChengKuan/awesome-text-generation](https://github.com/ChenChengKuan/awesome-text-generation)
+
+### other
+
+- [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
+- [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
+- [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+- [kjw0612/awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision)
+- [ dragen1860/awesome-AutoML](https://github.com/dragen1860/awesome-AutoML)
 
 ## object detection
 
@@ -27,7 +44,7 @@
 - [facebookresearch/maskrcnn-benchmark-pytorch](https://github.com/facebookresearch/maskrcnn-benchmark)
 - [roytseng-tw/Detectron.pytorch](https://github.com/roytseng-tw/Detectron.pytorch)
 
-## image retrieval/search
+## image retrieval/search/Re-Id
 
 - [filipradenovic/cnnimageretrieval-pytorch](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
 - [Cysu/open-reid](https://github.com/Cysu/open-reid)
@@ -38,6 +55,7 @@
 - [GeorgeSeif/Semantic-Segmentation-Suite-TF](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
 - [ansleliu/LightNet-PyTorch](https://github.com/ansleliu/LightNet)
 - [meetshah1995/pytorch-semseg](https://github.com/meetshah1995/pytorch-semseg)
+- [ speedinghzl/pytorch-segmentation-toolbox](https://github.com/speedinghzl/pytorch-segmentation-toolbox)
 - [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
 - [Semantic Segmentation](https://www.aiuai.cn/aifarm62.html)
 - [Semantic Segmentation论文整理](https://zhangbin0917.github.io/2018/09/18/Semantic-Segmentation/)
@@ -49,6 +67,7 @@
 ## dataset
 
 - [遥感数据集](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
+- [D-X-Y/awesome-NAS](https://github.com/D-X-Y/awesome-NAS)
 
 # Kaggle-Action
 
