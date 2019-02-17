@@ -14,7 +14,6 @@
 - [junyanz/CatPapers](https://github.com/junyanz/CatPapers)
 - [TerenceCYJ/3D-Hand-Pose-Estimation-Papers](https://github.com/TerenceCYJ/3D-Hand-Pose-Estimation-Papers)
 - [wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
-- [willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
 - [visual tracker benchmark results](https://github.com/foolwood/benchmark_results)
 - [gjy3035/Awesome-Crowd-Counting](https://github.com/gjy3035/Awesome-Crowd-Counting)
 - [https://github.com/ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition)
@@ -47,6 +46,7 @@
 
 ## image retrieval/search/Re-Id
 
+- [willard-yuan/awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers) 
 - [filipradenovic/cnnimageretrieval-pytorch](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
 - [Cysu/open-reid](https://github.com/Cysu/open-reid)
 - [layumi/Person_reID_baseline_PyTorch](https://github.com/layumi/Person_reID_baseline_pytorch)
