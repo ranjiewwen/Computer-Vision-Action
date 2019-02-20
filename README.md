@@ -69,7 +69,7 @@
 
 - [遥感数据集](https://zhangbin0917.github.io/2018/06/12/%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E9%9B%86/)
 - [D-X-Y/awesome-NAS](https://github.com/D-X-Y/awesome-NAS)
-- [瑕疵检测：Defects Inspection](https://github.com/sundyCoder/DEye) / 阿里天池铝表面瑕疵检测
+- [瑕疵检测：Defects Inspection](https://github.com/sundyCoder/DEye) / [阿里天池铝表面瑕疵检测](https://tianchi.aliyun.com/competition/entrance/231682/information)
 
 # Kaggle-Action
 
