@@ -3,6 +3,9 @@
 
 ## main computer vision task
 
+- reading paper : [CV-arXiv-Daily](https://github.com/zhengzhugithub/CV-arXiv-Daily)
+- [zhengzhugithub/AwesomeComputerVision](https://github.com/zhengzhugithub/AwesomeComputerVision)
+
 ### low level
 
 - [wenbihan/reproducible-image-denoising-state-of-the-art](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
