@@ -40,6 +40,7 @@
 - [kjw0612/awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision)
 - [ dragen1860/awesome-AutoML](https://github.com/dragen1860/awesome-AutoML)
 - [kjw0612/awesome-rnn](https://github.com/kjw0612/awesome-rnn)
+- [DeepTecher/AutonomousVehiclePaper](https://github.com/DeepTecher/AutonomousVehiclePaper)
 
 ## object detection
 
@@ -55,6 +56,7 @@
 - [filipradenovic/cnnimageretrieval-pytorch](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
 - [Cysu/open-reid](https://github.com/Cysu/open-reid)
 - [layumi/Person_reID_baseline_PyTorch](https://github.com/layumi/Person_reID_baseline_pytorch)
+- [michuanhaohao/reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline)
 
 ## segmentation 
 
@@ -79,6 +81,7 @@
 # Kaggle-Action
 
 - [iphysresearch/DataSciComp: Active Competitons to Join ](https://github.com/iphysresearch/DataSciComp)
+- [geekinglcq/CDCS](https://github.com/geekinglcq/CDCS) :Chinese Data Competitions' Solutions
 - [Data-Competition-TopSolution](https://github.com/Smilexuhc/Data-Competition-TopSolution)
 
 # Computer Vision Study 
@@ -99,13 +102,18 @@
 
 ## deeping learning
 
+- [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 - deepleraning.ai-course ：Neural Networks and Deep Learning，Improving Deep Neural Networks，Convolutional Neural Network.
 
 ## computer vision based on deep learning
 
 - Xiaoxiang College course study notes, PPT and resources are very detailed.
 
-## other information
+## deep learning framwork
+
+- [Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template)
+- [SpikeKing/DL-Project-Template](https://github.com/SpikeKing/DL-Project-Template)
+- [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
 
 - [tiny-dnn](https://github.com/ranjiewwen/tiny-dnn)
 
