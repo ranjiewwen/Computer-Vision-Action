@@ -108,6 +108,7 @@
 ## computer vision based on deep learning
 
 - Xiaoxiang College course study notes, PPT and resources are very detailed.
+- CS231/CS224
 
 ## deep learning framwork
 
@@ -123,4 +124,8 @@
 
 > Matlab/Octave toolbox for deep learning. Includes Deep Belief Nets, Stacked Autoencoders, Convolutional Neural Nets, Convolutional Autoencoders and vanilla Neural Nets. Each method has examples to get you started.
 - MatConvNet
-- CS231
+
+- [TVM](https://github.com/dmlc/tvm)
+    - [如何评价陈天奇的模块化深度学习系统NNVM？](https://www.zhihu.com/question/51216952)
+    - [深度学习编译中间件之NNVM](https://blog.csdn.net/sanallen/article/category/7429137)
+
