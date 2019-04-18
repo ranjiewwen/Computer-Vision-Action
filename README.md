@@ -34,11 +34,15 @@
 ### other
 
 - [cjmcv/deeplearning-paper-notes](https://github.com/cjmcv/deeplearning-paper-notes)
-- [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
-- [chester256/Model-Compression-Papers](https://github.com/chester256/Model-Compression-Papers)
 - [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 - [kjw0612/awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision)
+
+- [ sun254/awesome-model-compression-and-acceleration](https://github.com/sun254/awesome-model-compression-and-acceleration)
+- [chester256/Model-Compression-Papers](https://github.com/chester256/Model-Compression-Papers)
+
 - [ dragen1860/awesome-AutoML](https://github.com/dragen1860/awesome-AutoML)
+- [markdtw/awesome-architecture-search](https://github.com/markdtw/awesome-architecture-search)
+
 - [kjw0612/awesome-rnn](https://github.com/kjw0612/awesome-rnn)
 - [DeepTecher/AutonomousVehiclePaper](https://github.com/DeepTecher/AutonomousVehiclePaper)
 
