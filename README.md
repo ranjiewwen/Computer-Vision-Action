@@ -107,12 +107,14 @@
 ## deeping learning
 
 - [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
-- deepleraning.ai-course ：Neural Networks and Deep Learning，Improving Deep Neural Networks，Convolutional Neural Network.
+- [deepleraning.ai-course](https://github.com/ranjiewwen/Computer-Vision-Action/tree/master/deeplearning.ai%20course) ：Neural Networks and Deep Learning，Improving Deep Neural Networks，Convolutional Neural Network.
 
 ## computer vision based on deep learning
 
 - Xiaoxiang College course study notes, PPT and resources are very detailed.
-- CS231/CS224
+- [CS231n](https://github.com/cthorey/CS231):Convolutional Neural Networks for Visual Recognition; 
+    - [斯坦福CS231n学习笔记-中文系列](https://www.zybuluo.com/hanxiaoyang/note/442846)
+- [CS224n](https://github.com/hankcs/CS224n):Natural Language Processing with Deep Learning
 
 ## deep learning framwork
 
