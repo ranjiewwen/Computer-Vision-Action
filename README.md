@@ -90,6 +90,8 @@
 
 # Computer Vision Study 
 
+- [AI算法工程师](http://www.huaxiaozhuan.com/)
+
 ## python learning
 
 - [python machine learning in mooc](http://www.icourse163.org/course/BIT-1001872001)
